@@ -1,0 +1,175 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: hsl(257, 40%, 49%);
+  margin: 0;
+  color: white;
+}
+
+.container {
+  min-width: 375px;
+  margin: auto;
+}
+
+.header {
+  background: url('./images/bg-mobile.svg');
+  background-size: cover;
+  width: 375px;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 38px;
+  padding-left: 40px;
+  margin-bottom: 61px;
+}
+.logo img {
+  width: 120px;
+}
+
+.mockup {
+  text-align: center;
+}
+
+.mockup img {
+  width: 296px;
+  height: 209px;
+  margin-bottom: 60px;
+}
+.main {
+  margin: auto;
+  text-align: center;
+}
+.main h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 36px;
+  width: 280px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.main p {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  width: 304px;
+  margin: auto;
+}
+
+.main button {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.27);
+  border: none;
+  border-radius: 20px;
+  font-family: Poppins-Regular;
+  font-size: 12px;
+  color: #684bb1;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  width: 200px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.socials i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border: 1px solid white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1439px) {
+  .container {
+    max-width: 1440px;
+    height: 800px;
+    display: flex;
+    background: url('./images/bg-desktop.svg');
+    background-size: contain;
+  }
+
+  .header {
+    background: none;
+  }
+
+  .header,
+  .main {
+    width: 50%;
+    height: 100vh;
+  }
+
+  .logo {
+    padding-top: 64px;
+    padding-left: 80px;
+    margin-bottom: 74px;
+  }
+  .logo img {
+    width: 200px;
+  }
+
+  .mockup img {
+    width: 696px;
+    height: 493px;
+    padding-left: 80px;
+  }
+  .main,
+  .main h1,
+  .main p {
+    width: 520px;
+    text-align: left;
+  }
+
+  .main h1 {
+    margin-top: 232px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    font-weight: 400;
+  }
+  .main p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  .main button {
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    border-radius: 28px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    width: 200px;
+    height: 56px;
+  }
+  .socials {
+    margin-top: 183px;
+    justify-content: flex-end;
+  }
+  .socials i {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 150%;
+    border: 1.2px solid white;
+  }
+}
